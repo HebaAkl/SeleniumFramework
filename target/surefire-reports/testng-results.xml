@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="demo-guru99-telecom" duration-ms="1956" started-at="2021-06-12T17:26:14 EET" finished-at="2021-06-12T17:26:16 EET">
+    <groups>
+    </groups>
+    <test name="regression" duration-ms="1956" started-at="2021-06-12T17:26:14 EET" finished-at="2021-06-12T17:26:16 EET">
+      <class name="tests.AddCustomerTest">
+        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:tests.AddCustomerTest@7494e528]" name="startDriver" is-config="true" duration-ms="3555" started-at="2021-06-12T17:26:11 EET" finished-at="2021-06-12T17:26:14 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome-headless]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="userCanAddCustomer()[pri:0, instance:tests.AddCustomerTest@7494e528]" name="userCanAddCustomer" duration-ms="1925" started-at="2021-06-12T17:26:14 EET" finished-at="2021-06-12T17:26:16 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanAddCustomer -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.AddCustomerTest@7494e528]" name="screenshotOnFailure" is-config="true" duration-ms="1" started-at="2021-06-12T17:26:16 EET" finished-at="2021-06-12T17:26:16 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanAddCustomer status=SUCCESS method=AddCustomerTest.userCanAddCustomer()[pri:0, instance:tests.AddCustomerTest@7494e528] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:tests.AddCustomerTest@7494e528]" name="stopDriver" is-config="true" duration-ms="75" started-at="2021-06-12T17:26:16 EET" finished-at="2021-06-12T17:26:16 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.AddCustomerTest -->
+    </test> <!-- regression -->
+  </suite> <!-- demo-guru99-telecom -->
+</testng-results>
