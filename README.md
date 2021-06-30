@@ -1,5 +1,5 @@
 # SeleniumFramework
-Installation Steps 
+## Installation Steps 
 
 git clone <repo>
 
@@ -10,6 +10,6 @@ sudo apt install maven
 cd SeleniumFramework
 
 ## run the test
-## Note for the first time, all the dependecies will be installed
+-- Note for the first time, all the dependecies will be installed --
 mvn run
 
