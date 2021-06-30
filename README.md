@@ -11,5 +11,6 @@ cd SeleniumFramework
 
 ## run the test
 -- Note for the first time, all the dependecies will be installed --
+
 mvn run
 
